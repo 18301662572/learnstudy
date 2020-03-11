@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> HTML基础-常用展示标签</title>
+</head>
+<body>
+    <b>加粗</b>
+    <i>斜体</i>
+    <u>下划线</u>
+    <s>删除</s>
+
+    <p>段落标签</p>
+
+    <h1>标题1</h1>
+    <h2>标题2</h2>
+    <h3>标题3</h3>
+    <h4>标题4</h4>
+    <h5>标题5</h5>
+    <h6>标题6&nbsp; A&lt;b  </h6>
+     
+    <!--注释-->
+    <br><!--换行-->
+    <hr><!--水平线-->
+
+    <!-- 特殊字符 -->
+    &nbsp;<!--空格 -->
+    &gt;<!-- > -->
+    &lt;<!-- < -->
+    &amp;<!--& -->
+    &yen;<!--¥ -->
+    &copy;版权声明<!--版权 -->
+    &reg;商标注册<!--注册 -->
+
+    <div id="a1" style="height:800px; background-color: red;"></div> <!--用来定义块级标签-->
+    <span></span><!--用来定义内联（行内）标签-->
+    <img src="图片路径" alt="图片未加载成功时的提示" width="宽" height="高（宽高只设定一个就会等比例缩放）" title="鼠标悬浮时的提示信息">
+    <a href="点击跳转路径" target="_self">点我</a>
+    <a href="#a1">女朋友</a> <!--#id名：跳转到本页面id为id名的位置 -->
+    <div id="a2" style="height:800px; background-color:aqua;"></div>
+
+    <!-- 列表 -->
+     <!-- 无序列表 -->
+      <ul type="disc"> <!--circle square none -->
+         <li>吃饭</li>
+         <li>睡觉</li>
+         <li>打豆豆</li>
+     </ul>
+    <!-- 有序列表 -->
+    <ol type="A" start="2">
+        <li>注释</li>
+        <li>测试</li>
+        <li>日志</li>
+    </ol>
+    <!-- 标题列表 -->
+    <dl>
+        <dt>标题1</dt>
+        <dd>内容1</dd>
+        <dd>内容2</dd>
+        <dt>标题1</dt>
+        <dd>内容1</dd>
+        <dd>内容2</dd>
+    </dl>
+
+    <!-- 表格 -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>爱好</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    掼蛋
+                </td>
+                <td>
+                    蛋疼
+                </td>
+                <td>
+                    18
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

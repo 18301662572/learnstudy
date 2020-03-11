@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <!-- <li>{{.}}</li> -->
+            <li>姓名：{{.UserName}}</li>
+            <li>密码:{{.Password}}</li>
+            <li>年龄:{{.Age}}</li>
+        </ul>
+    </div>
+    {{/* Go模板中的注释 */}}
+    
+    <!--赋值给页面变量age-->
+    {{ $age:=. }}
+    <!--输出页面变量age.Age-->  
+    {{ $age.Age }}
+    
+    <hr>
+
+        {{/* 条件判断 */}}
+    {{if gt .Age 10}}
+    <div>澳门首家线上赌场开业了</div>
+    {{else}}
+    <div>快乐成长</div>
+    {{end}} 
+
+</body>
+</html>

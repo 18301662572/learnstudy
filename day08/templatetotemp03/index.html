@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>嵌套的template</title>
+</head>
+<body>
+    <h1>嵌套的template语法</h1>
+    <hr>
+    {{/* 在index.html这个模板中从另一个文件加载： ul.html*/}}
+    {{template "ul.html"}}
+
+    <hr>
+    {{/* 在index.html这个模板中调用另外一个模板： ol.html */}}
+    {{template "ol.html"}}
+    
+</body>
+</html>
+
+    {{/* 在index.html这个模板中定义了另外一个模板： ol.html */}}
+    {{ define "ol.html"}}
+    <h1>这是ol.html</h1>
+    <ol>
+        <li>吃饭</li>
+        <li>睡觉</li>
+        <li>打豆豆</li>
+    </ol>
+    {{end}}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+</head>
+
+<body>
+    <!--使用浏览器默认的提交数据操作必须要有一个form表单-->
+    <form action="http://127.0.0.1:8091/login" method="POST">
+        <label for="username">用户名 <input id="username" type="text" name="username"></label>
+        <br>
+        <label for="pwd">密码 <input id="pwd" type="password" name="pwd"></label>
+        <br>
+        <!--必须要有提交按钮-->
+        <input type="submit">
+        {{ . }}
+    </form>
+</body>
+
+</html>
