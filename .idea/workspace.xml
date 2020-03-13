@@ -13,6 +13,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1XsUQxmtxPgVUUsiCaGxmOLX45x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -20,6 +21,12 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\learnstuday\day04\13file_write" />
+      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\learnstuday\day04\11file_open" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
